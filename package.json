@@ -1,0 +1,17 @@
+{
+  "name": "pactumjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --profile pretty",
+    "test-and-report": "cucumber-js features -f json:report/cucumber_report.json"
+  },
+  "author": "Nayla Taguada",
+  "license": "ISC",
+  "dependencies": {
+    "cucumber": "7.0.0-rc.0",
+    "dotenv": "^10.0.0",
+    "pactum": "^3.1.0"
+  }
+}
